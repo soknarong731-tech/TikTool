@@ -22,7 +22,7 @@ class App(customtkinter.CTk):
 
         customtkinter.set_appearance_mode("dark")
 
-        self.title("TikTool V1.0")
+        self.title("TikTool V1.4")
         self.geometry("950x650") 
 
 
@@ -345,12 +345,10 @@ class App(customtkinter.CTk):
             current_url = self.webhook_entry.get()
             self.webhook_entry.configure(state="disabled")
             webhook = current_url
-            print(f"Webhook Enabled: {webhook}") 
         else:
-
             self.webhook_entry.configure(state="normal")
             webhook = None 
-            print("Webhook Disabled.") 
+
 
 
     def select_frame_by_name(self, name):
@@ -597,7 +595,7 @@ class App(customtkinter.CTk):
             }
         try:
             openZefoy()
-            view = driver.find_element(By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[6]/div/button').click()
+            view = driver.find_element(By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[5]/div/button').click()
             time.sleep(1)
             input = driver.find_element(By.XPATH, '/html/body/div[10]/div/form/div/input')
             input.send_keys(self.entry2.get())
@@ -638,7 +636,7 @@ class App(customtkinter.CTk):
         
         try:
             openZefoy()
-            share = driver.find_element(By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[7]/div/button').click()
+            share = driver.find_element(By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[6]/div/button').click()
             time.sleep(1)
             input = driver.find_element(By.XPATH, '/html/body/div[11]/div/form/div/input')
             input.send_keys(self.entry2.get())
@@ -682,7 +680,7 @@ class App(customtkinter.CTk):
             }
         try:
             openZefoy()
-            fav = driver.find_element(By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[8]/div/button').click()
+            fav = driver.find_element(By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[7]/div/button').click()
             time.sleep(1)
             input = driver.find_element(By.XPATH, '/html/body/div[12]/div/form/div/input')
             input.send_keys(self.entry2.get())
