@@ -506,7 +506,7 @@ class App(customtkinter.CTk):
             }
         try:
             openZefoy()
-            like = driver.find_element(By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[3]/div/button').click()
+            like = driver.find_element(By.XPATH, "//button[@class='btn btn-primary rounded-0 t-hearts-button']").click()
             time.sleep(1)
             input = driver.find_element(By.XPATH, '/html/body/div[8]/div/form/div/input')
             input.send_keys(self.entry2.get())
@@ -550,7 +550,7 @@ class App(customtkinter.CTk):
             }
         try:
             openZefoy()
-            follower = driver.find_element(By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[2]/div/button').click()
+            follower = driver.find_element(By.XPATH, "//button[@class='btn btn-primary rounded-0 t-followers-button']").click()
             time.sleep(1)
             input = driver.find_element(By.XPATH, '/html/body/div[16]/div/form/div/input')
             input.send_keys(self.entry1.get())
@@ -595,7 +595,7 @@ class App(customtkinter.CTk):
             }
         try:
             openZefoy()
-            view = driver.find_element(By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[5]/div/button').click()
+            view = driver.find_element(By.XPATH, "//button[@class='btn btn-primary rounded-0 t-views-button']").click()
             time.sleep(1)
             input = driver.find_element(By.XPATH, '/html/body/div[10]/div/form/div/input')
             input.send_keys(self.entry2.get())
@@ -636,7 +636,7 @@ class App(customtkinter.CTk):
         
         try:
             openZefoy()
-            share = driver.find_element(By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[6]/div/button').click()
+            share = driver.find_element(By.XPATH, "//button[@class='btn btn-primary rounded-0 t-shares-button']").click()
             time.sleep(1)
             input = driver.find_element(By.XPATH, '/html/body/div[11]/div/form/div/input')
             input.send_keys(self.entry2.get())
@@ -680,7 +680,7 @@ class App(customtkinter.CTk):
             }
         try:
             openZefoy()
-            fav = driver.find_element(By.XPATH, '/html/body/div[6]/div/div[2]/div/div/div[7]/div/button').click()
+            fav = driver.find_element(By.XPATH, "//button[@class='btn btn-primary rounded-0 t-favorites-button']").click()
             time.sleep(1)
             input = driver.find_element(By.XPATH, '/html/body/div[12]/div/form/div/input')
             input.send_keys(self.entry2.get())
@@ -724,7 +724,7 @@ class App(customtkinter.CTk):
 def openZefoy():
     global driver
     chrome_options = uc.ChromeOptions()
-    chrome_options.add_argument("--headless") 
+    #chrome_options.add_argument("--headless") 
     driver = uc.Chrome(options=chrome_options)
 
     try:
