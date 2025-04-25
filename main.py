@@ -724,7 +724,7 @@ class App(customtkinter.CTk):
 def openZefoy():
     global driver
     chrome_options = uc.ChromeOptions()
-    #chrome_options.add_argument("--headless") 
+    chrome_options.add_argument("--headless") 
     driver = uc.Chrome(options=chrome_options)
 
     try:
