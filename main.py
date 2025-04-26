@@ -724,7 +724,8 @@ class App(customtkinter.CTk):
 def openZefoy():
     global driver
     chrome_options = uc.ChromeOptions()
-    chrome_options.add_argument("--headless") 
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--disable-notifications")
     driver = uc.Chrome(options=chrome_options)
 
     try:
@@ -735,10 +736,8 @@ def openZefoy():
 
     driver.get("https://zefoy.com/")
     time.sleep(3)
-    if not captcha(): 
-        if driver:
-            driver.quit()
-        raise Exception("Failed to solve captcha after multiple attempts")
+    if captcha():
+        print("Captcha successful")
 
 
 def captcha():
