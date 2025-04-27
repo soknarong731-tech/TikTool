@@ -5,6 +5,7 @@
   <img src="https://github.com/user-attachments/assets/0212ce46-1e7b-41fa-a7b1-9a9cd4b46101" width="350" height="300"><br>
   <img alt="ViewCount" src="https://views.whatilearened.today/views/github/AdamBankz/tiktool.svg" align="center"><br>
   <a href="https://discord.gg/AeEX9gY4"><img src="https://dcbadge.limes.pink/api/server/https://discord.com/invite/GPb2YzgxZj"></a>
+  <br><img src="https://img.shields.io/github/stars/adambankz/tiktool.svg?style=social">
 </p>
 <p align="center">
   <b>Star Goals:<br><s>⭐ 10 Stars - Small update - Better UI, Retry Captcha, Bot Statistics</s><br><s>⭐ 15 Stars - Add comment likes, shares and favourites</s><br>⭐ 50 Stars - Binary Cooldown Bypass [2x faster]<br>⭐ 75 Stars - Change to request-based script [10x faster]</>
