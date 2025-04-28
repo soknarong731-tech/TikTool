@@ -46,7 +46,6 @@ TikTool is a bot application designed to automate interactions on the zefoy.com 
 6. Input your links in the configuration tab.
 7. Start one of the bots!
 8. Star the project if it works! ⭐️
-
 <br>
       
 ## Example<br>
