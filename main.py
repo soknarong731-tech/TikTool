@@ -13,6 +13,8 @@ from utils.captcha import CaptchaWindow
 import requests
 
 
+
+#
 driver = None
 webhook = None
 
