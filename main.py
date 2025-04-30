@@ -14,7 +14,6 @@ import requests
 
 
 
-
 driver = None
 webhook = None
 
