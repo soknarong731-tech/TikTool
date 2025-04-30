@@ -8,11 +8,21 @@
   <br><img src="https://img.shields.io/github/stars/adambankz/tiktool.svg?style=social">
 </p>
 <p align="center">
-  <b>Star Goals:<br><s>⭐ 10 Stars - Small update - Better UI, Retry Captcha, Bot Statistics</s><br><s>⭐ 15 Stars - Add comment likes, shares and favourites</s><br><s>⭐ 50 Stars - Binary Cooldown Bypass [2x faster]</s> [PATCHED]<br>⭐ 75 Stars - Change to request-based script [10x faster]</>
+  <b>Star Goals:<br><s>⭐ 10 Stars - Small update - Better UI, Retry Captcha, Bot Statistics</s><br><s>⭐ 15 Stars - Add comment likes, shares and favourites</s><br><s>⭐ 50 Stars - Binary Cooldown Bypass [2x faster]</s> [PATCHED]<br>⭐ 100 Stars - Change to request-based script [10x faster]</>
     <br>
 </p>
 
 <br>
+
+
+
+https://github.com/user-attachments/assets/7148dc58-4411-45bf-b0c8-e7e9a2c0c851
+
+
+
+
+<br>
+
 
 ## Project Description
 
