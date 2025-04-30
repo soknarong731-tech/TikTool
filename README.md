@@ -12,11 +12,6 @@
     <br>
 </p>
 
-## Preview
-
-
-
-
 <br>
 
 ## Project Description
