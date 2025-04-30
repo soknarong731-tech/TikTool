@@ -23,7 +23,7 @@ class App(customtkinter.CTk):
 
         customtkinter.set_appearance_mode("dark")
 
-        self.title("TikTool V1.4")
+        self.title("TikTool V1.5")
         self.geometry("950x650") 
 
 
