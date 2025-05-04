@@ -8,15 +8,17 @@
   <br><img src="https://img.shields.io/github/stars/adambankz/tiktool.svg?style=social">
 </p>
 <p align="center">
-  <b>Star Goals:<br><s>⭐ 10 Stars - Small update - Better UI, Retry Captcha, Bot Statistics</s><br><s>⭐ 15 Stars - Add comment likes, shares and favourites</s><br><s>⭐ 50 Stars - Binary Cooldown Bypass [2x faster]</s> [PATCHED]<br><s>⭐ 82 Stars - Increase the speed of the botting</s><br>⭐ 100 Stars - Change to request-based script [10x faster]</>
+  <b>Star Goals:<br><s>⭐ 10 Stars - Small update - Better UI, Retry Captcha, Bot Statistics</s><br><s>⭐ 15 Stars - Add comment likes, shares and favourites</s><br><s>⭐ 50 Stars - Binary Cooldown Bypass [2x faster]</s> [PATCHED]<br><s>⭐ 82 Stars - Increase the speed of the botting</s><br>⭐ 125 Stars - Add Instragram support.<br>⭐ 150 Stars - Change to request-based script [10x faster]</>
     <br>
 </p>
 
 <br>
 
 
+![image](https://github.com/user-attachments/assets/73202867-9912-4c5f-b3b2-0a4ccee6d05e)
 
-![image](https://github.com/user-attachments/assets/061692ef-f9d7-4dec-bac0-40199558accb)
+
+
 
 
 
@@ -33,8 +35,7 @@ TikTool is a bot application designed to automate interactions on the zefoy.com 
 
 ## Key Features
 
-*   Discord Webhook Notifications.
-*   User friendly interface using `customtkinter`
+*   Auto-detect which modes are working & which are not.
 *   Network blocking for the popups on the site.
 *   Statistics to track your botted numbers.
 
