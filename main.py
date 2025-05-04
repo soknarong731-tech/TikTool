@@ -181,8 +181,6 @@ def captchaSaveNreer(is_retry=False):
         return None
 
 
-
-
 def chooseSocial():
     os.system('cls')
     logo()
