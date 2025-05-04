@@ -325,7 +325,7 @@ def likeBot():
             try:
                 target_button = zefoy_driver.find_element(By.XPATH, '/html/body/div[8]/div/div/div[1]/div/form/button')
                 target_button.click()
-                likeStats += 25
+                likeStats += 10
             except:
                 time.sleep(3)
         except:
