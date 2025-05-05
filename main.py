@@ -347,7 +347,7 @@ def likeBot():
     
 def shareBot():
     global URL
-    likeStats = 0
+    shareStats = 0
     zefoy_input.send_keys(URL)
     while True:
         os.system('cls')
@@ -387,7 +387,7 @@ def favouriteBot():
     while True:
         os.system('cls')
         logo()
-        print(f"    {favouriteStats} likes sent in total.")
+        print(f"    {favStats} likes sent in total.")
         print("    Press CTRL+C to stop.")
         try:
             search_button = zefoy_driver.find_element(By.XPATH, '/html/body/div[12]/div/form/div/div/button').click()
