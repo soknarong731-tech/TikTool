@@ -421,6 +421,6 @@ def commentBot():
 
 
 os.system('cls')
-os.system("title TikTool v1.6 │ Leave a star for updates!")
+os.system("title TikTool v1.6 │ LEAVE A STAR FOR UPDATES!")
 time.sleep(3)
 chooseSocial()
