@@ -189,7 +189,10 @@ def chooseSocial():
     print("    1. TIKTOK  " + Fore.GREEN + "[WORKING]" + Fore.RESET)
     print("    2. INSTAGRAM  " + Fore.YELLOW + "[RELEASING AT 125 STARS]" + Fore.RESET)
     print()
-    choice = int(input("    CHOICE: "))
+    try:
+        choice = int(input("    CHOICE: "))
+    except:
+        chooseSocial()
     if (choice == 1):
           openTiktokSites()
     elif (choice == 2):
@@ -228,7 +231,11 @@ def chooseTiktok():
          print("    4. Favourites  " + Fore.RED + "[DOWN]" + Fore.RESET)
     print()
 
-    choice = int(input("    CHOICE: "))
+    try:
+        choice = int(input("    CHOICE: "))
+    except:
+        chooseTiktok()
+
     if (choice == 1):
         if viewsTabZefoy.is_enabled():
             viewsTabZefoy.click()
@@ -387,7 +394,7 @@ def favouriteBot():
     while True:
         os.system('cls')
         logo()
-        print(f"    {favStats} likes sent in total.")
+        print(f"    {favStats} favourites sent in total.")
         print("    Press CTRL+C to stop.")
         try:
             search_button = zefoy_driver.find_element(By.XPATH, '/html/body/div[12]/div/form/div/div/button').click()
