@@ -168,9 +168,9 @@ def captchaSaveZefoy(is_retry=False):
 def captchaSaveNreer(is_retry=False):
     global nreer_driver
     time.sleep(1)
-    classname = "card-img-top"
+    xpath = "//*[@id="msg"]/div[2]/img"
     try:
-        l = nreer_driver.find_element(By.CLASS_NAME, classname)
+        l = nreer_driver.find_element(By.XPATH, xpath)
         captcha_file = 'captcha.png'
         with open(captcha_file, 'wb') as file:
             file.write(l.screenshot_as_png)
