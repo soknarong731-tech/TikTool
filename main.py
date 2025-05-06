@@ -283,7 +283,7 @@ def viewBot():
     while True:
         os.system('cls')
         logo()
-        print(Fore.CYAN + "    {viewStats}" + Fore.RESET + Fore.MAGENTA +" views sent in total." + Fore.RESET)
+        print(Fore.CYAN + f"    {viewStats}" + Fore.RESET + Fore.MAGENTA +" views sent in total." + Fore.RESET)
         print("    Press CTRL+C to stop.")
         try:
             search_button = zefoy_driver.find_element(By.XPATH, '/html/body/div[10]/div/form/div/div/button').click()
