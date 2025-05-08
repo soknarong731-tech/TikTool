@@ -45,11 +45,11 @@ TikTool is a bot application designed to automate interactions on TikTok, such a
 
 <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white">&nbsp; - Tutorial: https://www.youtube.com/watch?v=3Q8btfmtKxk&t=3s
 
-1. Install Python 3.8+ and add it to PATH during installation.   [ DONT INSTALL LATEST ]
+1. Install Python 3.8+ and add it to PATH during installation.   [DON'T INSTALL THE LATEST VERSION, IT DOESNT WORK]
 2. Install Google Chrome.
 3. Download and extract the latest release ZIP.
 4. Open a terminal in the directory and install the needed packages with `pip install -r requirements.txt`
-5. Run the application through `python main.py`
+5. Run the application through `python main.py`   [Needs to be opened through CMD prompt so that captcha's show]
 6. Input your links in the configuration tab.
 7. Start one of the bots!
 8. Star the project if it works! ⭐️
