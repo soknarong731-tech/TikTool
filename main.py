@@ -187,7 +187,7 @@ def chooseSocial():
     print("""    Please choose an option.  [e.g 1]""")
     print()
     print("    1. TIKTOK  " + Fore.GREEN + "[WORKING]" + Fore.RESET)
-    print("    2. INSTAGRAM  " + Fore.YELLOW + "[RELEASING AT 125 STARS]" + Fore.RESET)
+    print("    2. INSTAGRAM  " + Fore.YELLOW + "[RELEASING AT 150 STARS]" + Fore.RESET)
     print()
     try:
         choice = int(input("    CHOICE: "))
