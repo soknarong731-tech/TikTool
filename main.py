@@ -305,9 +305,9 @@ def viewBot():
             search = nreer_driver.find_element(By.XPATH, '//*[@id="form1"]/div/div/button').click()
             time.sleep(2)
             viewButton = nreer_driver.find_element(By.XPATH, '/html/body/main/div[1]/div/div[2]/div/div/div[1]/button[4]').click()
-            viewStats += 1500
             time.sleep(5)
             close = nreer_driver.find_element(By.XPATH, '/*[@id="bootstrap-show-modal-0"]/div/div/div[1]/button').click()
+            viewStats += 1500
         except:
             time.sleep(1)
 
@@ -381,8 +381,8 @@ def shareBot():
             search = nreer_driver.find_element(By.XPATH, '//*[@id="form1"]/div/div/button').click()
             time.sleep(2)
             shareButton = nreer_driver.find_element(By.XPATH, '/html/body/main/div[1]/div/div[2]/div/div/div[1]/button[6]').click()
-            shareStats += 200
             close = nreer_driver.find_element(By.XPATH, '/*[@id="bootstrap-show-modal-0"]/div/div/div[1]/button').click()
+            shareStats += 200
         except:
             time.sleep(1)
     
@@ -416,8 +416,8 @@ def favouriteBot():
             search = nreer_driver.find_element(By.XPATH, '//*[@id="form1"]/div/div/button').click()
             time.sleep(2)
             shareButton = nreer_driver.find_element(By.XPATH, '/html/body/main/div[1]/div/div[2]/div/div/div[1]/button[6]').click()
-            favouriteStats += 100
             close = nreer_driver.find_element(By.XPATH, '/*[@id="bootstrap-show-modal-0"]/div/div/div[1]/button').click()
+            favouriteStats += 100
         except:
                 time.sleep(1)
 
