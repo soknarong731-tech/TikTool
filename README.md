@@ -1,14 +1,16 @@
 
-<h1 align="center">TikTool v1.6</h1>
-<h3 align="center">Scroll down for an installation guide.</h3>
+
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0212ce46-1e7b-41fa-a7b1-9a9cd4b46101" width="350" height="300"><br>
-  <img alt="ViewCount" src="https://views.whatilearened.today/views/github/AdamBankz/tiktool.svg" align="center"><br>
-  Use the bot in the Discord below, this one may not work as expected.
-  <br>
-  <a href="https://discord.gg/DWNYCeXW8D"><img src="https://dcbadge.limes.pink/api/server/https://discord.com/invite/DWNYCeXW8D"></a>
-  <br><img src="https://img.shields.io/github/stars/adambankz/tiktool.svg?style=social">
+  <img src="https://github.com/user-attachments/assets/260dc633-ab15-4e9b-84cf-3c4f99bed1a9">
 </p>
+
+<h1 align="center"></h1>
+<h4 align="center">USE THE BOT IN THE DISCORD BELOW FOR NO INSTALLATION / MOBILE USE</h4>
+<p align="center">
+  <a href="https://discord.gg/DWNYCeXW8D"><img src="https://dcbadge.limes.pink/api/server/https://discord.com/invite/DWNYCeXW8D"></a><br><br>
+</p>
+
 <p align="center">
   <b>Star Goals:<br><s>⭐ 10 Stars - Small update - Better UI, Retry Captcha, Bot Statistics</s><br><s>⭐ 15 Stars - Add comment likes, shares and favourites</s><br><s>⭐ 50 Stars - Binary Cooldown Bypass [2x faster]</s> [PATCHED]<br><s>⭐ 82 Stars - Increase the speed of the botting</s><br>⭐ 150 Stars - Add Instagram support.</>
     <br>
@@ -17,8 +19,8 @@
 <br>
 
 
-![image](https://github.com/user-attachments/assets/73202867-9912-4c5f-b3b2-0a4ccee6d05e)
 
+![image](https://github.com/user-attachments/assets/73202867-9912-4c5f-b3b2-0a4ccee6d05e)
 
 
 
@@ -44,7 +46,7 @@ TikTool is a bot application designed to automate interactions on TikTok, such a
 
 ## Installation
 
-<img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white">&nbsp; - [OUTDATED] Tutorial: https://www.youtube.com/watch?v=3Q8btfmtKxk&t=3s
+<img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white">&nbsp; - Tutorial: https://www.youtube.com/watch?v=_0YA2l7praY
 
 1. Install Python 3.8+ and add it to PATH during installation.   [DON'T INSTALL THE LATEST VERSION, IT DOESNT WORK]
 2. Install Google Chrome.
