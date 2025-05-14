@@ -307,7 +307,7 @@ def viewBot():
             viewButton = nreer_driver.find_element(By.XPATH, '/html/body/main/div[1]/div/div[2]/div/div/div[1]/button[4]').click()
             time.sleep(5)
             close = nreer_driver.find_element(By.XPATH, '/*[@id="bootstrap-show-modal-0"]/div/div/div[1]/button').click()
-            viewStats += 1000
+            viewStats += 500
         except:
             time.sleep(1)
 
