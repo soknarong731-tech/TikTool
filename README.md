@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <b>Star Goals:<br><s>⭐ 10 Stars - Small update - Better UI, Retry Captcha, Bot Statistics</s><br><s>⭐ 15 Stars - Add comment likes, shares and favourites</s><br><s>⭐ 50 Stars - Binary Cooldown Bypass [2x faster]</s> [PATCHED]<br><s>⭐ 82 Stars - Increase the speed of the botting</s><br>⭐ 150 Stars - Add Instagram support.</>
+  <b>Star Goals:<br><s>⭐ 10 Stars - Small update - Better UI, Retry Captcha, Bot Statistics</s><br><s>⭐ 15 Stars - Add comment likes, shares and favourites</s><br><s>⭐ 50 Stars - Binary Cooldown Bypass [2x faster]</s> [PATCHED]<br><s>⭐ 82 Stars - Increase the speed of the botting</s></>
     <br>
 </p>
 
