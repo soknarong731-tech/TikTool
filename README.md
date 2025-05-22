@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center"></h1>
-<h4 align="center">USE THE BOT IN THE DISCORD BELOW FOR NO INSTALLATION / MOBILE USE</h4>
+<h4 align="center">USE THE BOT IN THE DISCORD BELOW FOR NO INSTALLATION / MOBILE USE!</h4>
 <p align="center">
   <a href="https://discord.gg/DWNYCeXW8D"><img src="https://dcbadge.limes.pink/api/server/https://discord.gg/tiktool"></a><br><br>
 </p>
